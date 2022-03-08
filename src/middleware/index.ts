@@ -1,9 +1,9 @@
-import authJwt from './authJwt';
-import verifySignUp from './verifySignUp';
+import authJwt from "./authJwt";
+import verifySignUp from "./verifySignUp";
 
 const auth_Verify = {
-     authJwt,
-    verifySignUp
-}
+  authJwt,
+  verifySignUp,
+};
 
 export default auth_Verify;
